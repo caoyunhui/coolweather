@@ -1,17 +1,16 @@
 package com.cyf.coolweather.app.db;
 
-import java.security.Provider;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.cyf.coolweather.app.model.City;
-import com.cyf.coolweather.app.model.County;
-import com.cyf.coolweather.app.model.Province;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
+import com.cyf.coolweather.app.model.City;
+import com.cyf.coolweather.app.model.County;
+import com.cyf.coolweather.app.model.Province;
 
 public class CoolWeatherDB {
 
